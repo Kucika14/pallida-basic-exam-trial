@@ -9,8 +9,13 @@
 user_input = input('Please give your email! It should be look like this : firstName.lastName@exam.com\nWrite your email here: ')
 
 def give_back_name(name):
-    print(name)
-    for word in user_input.split('.'):
-        print(word)
+    splitted = user_input.split('@')
+    result = splitted[0]
+    second_split = result.split('.')
+    final_result = (second_split[::-1])
+    first_name = final_result[0]
+    second_name = final_result[1]
+    print(first_name.capitalize() + " " + second_name.capitalize())
+
 
 give_back_name(user_input)
