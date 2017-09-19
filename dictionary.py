@@ -6,9 +6,6 @@ dictionary = [
 # Implement this method. It should add the given key-value pair to the
 # list 'dictionary'
 
-for i in dictionary:
-    print(dictionary)
-
 def add_word(hun_word, eng_word):
     pass
 # Implement these methods. They should return the translation of the given
@@ -21,3 +18,5 @@ def translate_to_hun(eng_word):
 
 def translate_to_eng(hun_word):
     pass
+
+translate_to_hun(dictionary)

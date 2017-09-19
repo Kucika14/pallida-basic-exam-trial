@@ -8,18 +8,19 @@
 # print(name_from_email("elek.viz@exam.com"))
 
 def get_email(user_input):
-    username = ""
-    first_name = user_input.find("@")
-    for i in len(first_name):
-        username += i
-        print(username)
+    pass
+    # username = ""
+    # first_name = user_input.find("@")
+    # for i in len(first_name):
+    #     username += i
+    #     print(username)
 
     
 
 
 
 def give_back_name():
-    pass
+    for i in user_input
 
 
 
