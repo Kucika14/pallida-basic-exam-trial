@@ -14,9 +14,15 @@ def add_word(hun_word, eng_word):
 
 def translate_to_hun(eng_word):
     pass
+    # for i in dictionary:
+    #     if i['alma'] == 'apple':
+    #             print(i)
 
 
 def translate_to_eng(hun_word):
-    pass
+    for hun_word in dictionary:
+        for element in hun_word:
+            if element == 'apple':
+                print(element)
 
-translate_to_hun(dictionary)
+translate_to_eng(dictionary)
