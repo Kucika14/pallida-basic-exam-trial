@@ -5,4 +5,19 @@
 # example: "elek.viz@exam.com" for this input the output should be: "Viz Elek"
 # accents does not matter
 
-print(name_from_email("elek.viz@exam.com"))
+# print(name_from_email("elek.viz@exam.com"))
+
+def get_email(user_input):
+    print(user_input)
+
+
+
+
+def give_back_name():
+    pass
+
+
+
+user_input = input('Please give your email! It should be look like this : firstName.lastName@exam.com\nWrite your email here: ')
+
+get_email(user_input)
