@@ -6,23 +6,11 @@
 # accents does not matter
 
 # print(name_from_email("elek.viz@exam.com"))
+user_input = input('Please give your email! It should be look like this : firstName.lastName@exam.com\nWrite your email here: ')
 
-def get_email(user_input):
-    pass
-    # username = ""
-    # first_name = user_input.find("@")
-    # for i in len(first_name):
-    #     username += i
-    #     print(username)
+def give_back_name(name):
+    print(name)
+    for word in user_input.split('.'):
+        print(word)
 
-    
-
-
-
-def give_back_name():
-    for i in user_input
-
-
-
-user_input = str(input('Please give your email! It should be look like this : firstName.lastName@exam.com\nWrite your email here: '))
-get_email(user_input)
+give_back_name(user_input)
