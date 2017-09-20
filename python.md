@@ -34,3 +34,6 @@ The application is accepted if:
 ###  What is the difference between id and class in CSS? [2p]
 #### Your answer:
 [add your answer here]
+
+id-vel egyetlen elemet jelölsz meg, class-al sokat egyszerre.
+tehát amíg classal sok elmen tudsz egyszerre módosítani (ha egy klasszba tartoznak persze). Addig az ID csak egy bizonyos elemre vonatkozik és kizárólag arra.
